@@ -9,7 +9,18 @@ export default function Home() {
       </Head>
 
       <main>
-        <p>Kareem's apprehension</p>
+        <ul>
+          <li>kareem's apprehension</li>
+          <li>about</li>
+          <li>writing</li>
+          <li>projects</li>
+          <li>bookshelf</li>
+          <li>research</li>
+          <li>film</li>
+          <li>mildly interesting</li>
+          <li>music</li>
+          <li>resume</li>
+        </ul>
       </main>
     </div>
   )
