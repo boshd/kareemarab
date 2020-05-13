@@ -11,5 +11,6 @@ export default function Home() {
       <main>
         <p>Kareem's apprehension</p>
       </main>
+    </div>
   )
 }
