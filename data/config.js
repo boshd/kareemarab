@@ -24,8 +24,36 @@ const config = {
         link: '/about',
       },
       {
-        name: 'why',
-        link: '/about',
+        name: 'writing',
+        link: '/writing',
+      },
+      {
+        name: 'projects',
+        link: '/projects',
+      },
+      {
+        name: 'bookshelf',
+        link: '/bookshelf',
+      },
+      {
+        name: 'research',
+        link: '/research',
+      },
+      {
+        name: 'film',
+        link: '/film',
+      },
+      {
+        name: 'interesting',
+        link: '/interesting',
+      },
+      {
+        name: 'music',
+        link: '/music',
+      },
+      {
+        name: 'resume',
+        link: '/resume',
       }
     ],
     themeColor: '#3F80FF',
