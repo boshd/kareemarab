@@ -1,3 +1,12 @@
-li {
-    list-style-type: none;
-}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+// configuration
+@import 'base/variables';
+
+// components
+@import 'components/header';
+@import 'components/layout';
+
+// pages
+@import 'pages/index';
