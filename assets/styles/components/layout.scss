@@ -1,0 +1,16 @@
+.outer-container{
+    background:red;
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+
+    .header {
+        background-color: green;
+        position: absolute;
+    }
+
+    .main{
+       background:blue;
+       height: 10000px;
+    }
+}

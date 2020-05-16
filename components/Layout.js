@@ -14,12 +14,13 @@ const Layout = ({ children }) => (
           {/* <link rel="icon" href={logo}></link> */}
       </Head>
 
-      <div>
+      <div className='outer-container'>
         <Header/>
+        <div className='main'>
+          {children}
+        </div>
       </div>
-      <div>
-        {children}
-      </div>
+
   </div>
 )
 

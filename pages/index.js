@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 export default function IndexPage() {
   return (
     <Layout>
-      <h2>kareem's apprehension</h2>
+      index page
     </Layout>
   )
 }
