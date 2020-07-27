@@ -1,16 +1,6 @@
 .outer-container{
-    background:red;
+    background: transparent;
     max-width: 40%;
     margin: auto;
-    // position: fixed;
-
-    .header {
-        background-color: green;
-        position: absolute;
-    }
-
-    .main-container {
-       background:blue;
-       height: 10000px;
-    }
+    margin-top: 50px;
 }

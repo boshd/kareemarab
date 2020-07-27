@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import config from '../data/config'
-import Header from './Header';
+import SideNav from './SideNav';
 
 const Layout = ({ children }) => (
   <div>
@@ -15,7 +15,7 @@ const Layout = ({ children }) => (
       </Head>
 
       <div className='outer-container'>
-        <Header/>
+        <SideNav/>
         <div className='main'>
           {children}
         </div>

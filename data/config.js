@@ -24,36 +24,32 @@ const config = {
         link: '/about',
       },
       {
-        name: 'writing',
-        link: '/writing',
+        name: 'thoughts',
+        link: '/thoughts',
+      },
+      {
+        name: 'ml',
+        link: '/ml',
       },
       {
         name: 'projects',
-        link: '/projects',
+        link: '',
       },
       {
         name: 'bookshelf',
         link: '/bookshelf',
       },
       {
-        name: 'research',
-        link: '/research',
-      },
-      {
         name: 'film',
-        link: '/film',
-      },
-      {
-        name: 'interesting',
-        link: '/interesting',
+        link: '',
       },
       {
         name: 'music',
-        link: '/music',
+        link: '',
       },
       {
         name: 'resume',
-        link: '/resume',
+        link: '/resume.pdf',
       }
     ],
     themeColor: '#3F80FF',
