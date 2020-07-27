@@ -15,5 +15,11 @@
     "react-dom": "^16.13.1",
     "react-latex-next": "^1.2.0",
     "sass": "^1.26.5"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.2",
+    "js-yaml": "^3.14.0",
+    "marked": "^1.1.1",
+    "raw-loader": "^4.0.1"
   }
 }

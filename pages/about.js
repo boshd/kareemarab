@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import Layout from '../layouts/Layout'
 
 export default function AboutPage() {
 	return (
@@ -18,7 +18,7 @@ export default function AboutPage() {
 
 				<h3 id="contact-me">Get in touch</h3>
 				<p>
-					<a href="mailto:rvarm1@gmail.com">me@kareemarab.com</a>
+					<a href="mailto:me@kareemarab.com">me@kareemarab.com</a>
 				</p>
 			</div>
 		</Layout>
