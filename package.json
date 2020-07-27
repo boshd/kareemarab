@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.4.0",
+    "next": "^9.4.4",
     "prop-types": "^15.7.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-latex-next": "^1.2.0",
     "sass": "^1.26.5"
   }

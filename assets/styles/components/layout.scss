@@ -1,15 +1,15 @@
 .outer-container{
     background:red;
-    max-width: 90%;
+    max-width: 40%;
     margin: auto;
-    position: relative;
+    // position: fixed;
 
     .header {
         background-color: green;
         position: absolute;
     }
 
-    .main{
+    .main-container {
        background:blue;
        height: 10000px;
     }
