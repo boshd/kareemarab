@@ -28,10 +28,6 @@ const config = {
         link: '/thoughts',
       },
       {
-        name: 'ml',
-        link: '/ml',
-      },
-      {
         name: 'projects',
         link: '',
       },
