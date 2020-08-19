@@ -33,7 +33,7 @@ const config = {
       // },
       {
         name: 'resume',
-        link: '/resume2.pdf',
+        link: '/resume3.pdf',
       }
     ],
     themeColor: '#3F80FF',
