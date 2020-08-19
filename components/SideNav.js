@@ -11,11 +11,20 @@ export default class SideNav extends Component {
                     <ul>
                         {config.menuLinks.map(link => (
                             <li>
-                                <Link href={link.link} passHref={true}>
+                                <Link href={link.link}>
                                     {link.name}
                                 </Link>
                             </li>
                         ))}
+                        <li>
+                            <a href='https://github.com/kareemarab'>projects</a>
+                        </li>
+                        <li>
+                            <a href='https://vimeo.com/kareemarab'>film</a>
+                        </li>
+                        <li>
+                            <a href='https://soundcloud.com/itsmeka'>music</a>
+                        </li>
                     </ul>
                 </div>
             </nav>

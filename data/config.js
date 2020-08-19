@@ -17,35 +17,23 @@ const config = {
     newsletterEmbed: '',
     userName: 'kareemarab',
     userEmail: 'me@kareemarab.com',
-    userTwitter: 'itskareemarab',
+    userTwitter: 'itsboshd',
     menuLinks: [
       {
         name: 'about',
         link: '/about',
       },
-      {
-        name: 'thoughts',
-        link: '/thoughts',
-      },
-      {
-        name: 'projects',
-        link: '',
-      },
-      {
-        name: 'bookshelf',
-        link: '/bookshelf',
-      },
-      {
-        name: 'film',
-        link: '',
-      },
-      {
-        name: 'music',
-        link: '',
-      },
+      // {
+      //   name: 'thoughts',
+      //   link: '/thoughts',
+      // },
+      // {
+      //   name: 'bookshelf',
+      //   link: '/bookshelf',
+      // },
       {
         name: 'resume',
-        link: '/resume.pdf',
+        link: '/resume2.pdf',
       }
     ],
     themeColor: '#3F80FF',
