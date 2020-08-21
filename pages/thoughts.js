@@ -1,5 +1,4 @@
 import React from 'react'
-import PostLayout from '../layouts/Layout'
 import { getConfig, getAllPosts } from '../api/index'
 
 import Head from 'next/head'
