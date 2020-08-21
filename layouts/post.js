@@ -15,3 +15,5 @@ export default function PostLayout(props) {
 		</Layout>
 	)
 }
+
+
