@@ -23,17 +23,17 @@ const config = {
         name: 'about',
         link: '/about',
       },
-      // {
-      //   name: 'thoughts',
-      //   link: '/thoughts',
-      // },
+      {
+        name: 'thoughts',
+        link: '/thoughts',
+      },
       // {
       //   name: 'bookshelf',
       //   link: '/bookshelf',
       // },
       {
         name: 'resume',
-        link: '/resume3.pdf',
+        link: '/resume.pdf',
       }
     ],
     themeColor: '#3F80FF',

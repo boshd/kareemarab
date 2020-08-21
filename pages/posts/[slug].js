@@ -1,8 +1,8 @@
-import Layout from '../../layouts/Layout'
+import PostLayout from '../../layouts/post'
 import { getPostBySlug, getAllPosts } from '../../api/index'
-// '../layouts/Layout'
+
 export default function Post(props) {
-	return <Layout title={props.title} content={props.content} />
+	return <PostLayout title={props.title} content={props.content}/>
 }
 
 export async function getStaticProps(context) {
@@ -18,6 +18,6 @@ export async function getStaticPaths() {
 	}))
 	return {
 		paths: paths,
-		fallback: false,
+		fallback: false
 	}
 }
