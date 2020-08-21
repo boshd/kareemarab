@@ -8,6 +8,7 @@ import Layout from '../layouts/Layout'
 export default function ThoughtsPage(props) {
 	return (
 		<Layout title={props.title} description={props.description}>
+			<h1>Blog posts</h1>
 			<ul>
 				{props.posts.map(function (post, idx) {
 					return (

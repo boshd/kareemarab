@@ -11,7 +11,7 @@ const Layout = ({ children }) => (
           {/* <meta name="image" content={logo} /> */}
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
-          {/* <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> */}
+          <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
           {/* <link rel="icon" href={logo}></link> */}
       </Head>
 
