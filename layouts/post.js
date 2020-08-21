@@ -11,11 +11,6 @@ export default function PostLayout(props) {
 			<article>
 				<h1>{props.title}</h1>
 				<div dangerouslySetInnerHTML={{ __html: props.content }} />
-				<div>
-					<Link href="/">
-						<a>Home</a>
-					</Link>
-				</div>
 			</article>
 		</Layout>
 	)

@@ -1,4 +1,4 @@
-import PostLayout from '../../layouts/post'
+import PostLayout from '../../layouts/Post'
 import { getPostBySlug, getAllPosts } from '../../api/index'
 
 export default function Post(props) {

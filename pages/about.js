@@ -7,7 +7,7 @@ export default function AboutPage() {
 			<div class="entry">
                 <h1>About</h1>
 				<p>
-                    Hey, I'm Kareem. I'm a recent Computer Science graduate
+					👋 Hey, I'm Kareem. I'm a recent Computer Science graduate
                     from Carleton University. I currently work @ an amazing start-up
                     called <a href="www.neurovine.ai">Neurovine</a> - we're trying
                     to leverage software and ai to aid concussion patients with
