@@ -12,7 +12,7 @@ export default class SideNav extends Component {
                         {config.menuLinks.map(link => (
                             <li>
                                 <Link href={link.link}>
-                                    {link.name}
+                                    <a>{link.name}</a>
                                 </Link>
                             </li>
                         ))}
