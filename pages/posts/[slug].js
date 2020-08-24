@@ -1,7 +1,7 @@
 import Layout from '../../layouts/Layout'
 import Head from 'next/head'
 import { getPostBySlug, getAllPosts } from '../../api/index'
-import { MarkdownRender } from '../../components/MarkdownRenderer'
+import MarkdownRender from './MarkdownRender'
 
 export default function Post(props) {
 	// return <PostLayout title={props.title} content={props.content}/>
