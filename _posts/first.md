@@ -8,4 +8,8 @@ $$
 f(hello) = world
 $$
 
-<!-- \\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\] -->9
+\begin{equation}
+f(hello) = world
+\end{equation}
+
+<!-- \\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\] -->

@@ -90,6 +90,7 @@ hr {
 h1 {
     font-size: 40px;
 }
+
 h2,
 h3,
 h4,
@@ -106,7 +107,7 @@ a {
 
     &:hover {
         color: black !important;
-        background: #fffaf1;
+        background: #FFCFA9;
     }
 
     &:after {
@@ -124,4 +125,18 @@ a {
 *:focus {
     background: #ffe8bc !important;
     color: black !important;
+}
+
+.flex {
+    @media (min-width: 820px) {
+        display: flex;
+
+        .col {
+            flex: 1;
+        }
+
+        .col:first-of-type {
+            margin-right: 2em;
+        }
+    }
 }

@@ -8,11 +8,19 @@ export default function Post(props) {
 		<Layout>
 			<Head>
 				<title>{props.title}</title>
+				dsdsdfsdfs
 			</Head>
-			<article>
-				<h1>{props.title}</h1>
+			{/* <style>body { max-width: 42em }</style> */}
+			<article class='post' >
+				<div class='post-heading'>
+					<h1 class="post-title">{ props.title }</h1>
+					<time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
+
+					</time>
+				</div>
 				<div dangerouslySetInnerHTML={{ __html: props.content }} />
 			</article>
+
 		</Layout>
 	)
 }
