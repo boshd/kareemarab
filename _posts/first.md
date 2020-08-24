@@ -3,7 +3,7 @@ title: first post 😃
 ---
 
 this site is obv. still under construction, in the meanwhile you can check out my projects, music or resume. this site is obv. still under construction, in the meanwhile you can check out my projects, music or resume. this site is obv. still under construction, in the meanwhile you can check out my projects, music or resume. this site is obv. still under construction, in the meanwhile you can check out my projects, music or resume. this site is obv. still under construction, in the meanwhile you can check out my projects, music or resume. this site is obv. still under construction, in the meanwhile you can check out my projects, music or resume.
-
+$\sigma_U \sim \mathrm{Normal}(0, \Theta_U^2)$
 $$
 f(hello) = world
 $$
