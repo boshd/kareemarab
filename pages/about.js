@@ -9,7 +9,7 @@ export default function AboutPage() {
 				<p>
 					Hey, I'm Kareem. I'm a recent Computer Science grad from
 					Carleton University. I currently work
-					<a href="www.neurovine.ai"> @Neurovine</a> - where we're trying to
+					<a href="https://neurovine.ai"> @Neurovine</a> - where we're trying to
 					leverage software and ai to aid concussion patients with
 					their recovery process. My main intersts are in software
 					engineering, statistics, machine learning and a bit of music
