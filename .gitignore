@@ -28,3 +28,12 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# resume tex files
+/public/resume/resume.aux
+/public/resume/resume.fdb_latexmk
+/public/resume/resume.fls
+/public/resume/resume.log
+/public/resume/resume.synctex.gz
+/public/resume/resume.tex
+/public/resume/__latexindent_temp.tex
