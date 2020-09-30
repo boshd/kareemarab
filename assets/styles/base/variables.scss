@@ -16,9 +16,11 @@ $width: 60%;
 
 $background: #f0f0f0;
 
+
+
 $nude: #fce4de;
 $greener: #5DFFD8;
-$primary-color: #5DFFD8;
+$primary-color: #0096c7;
 $secondary-color: rgb(255, 90, 95);
 $green: #1fc844;
 $yellow: #fed356;
@@ -43,8 +45,23 @@ $font-variant: normal;
 $font-weight: normal;
 $font-color: #404040;
 $light-font-color: rgba(0, 0, 0, 0.6);
-$font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Roboto', Helvetica, Arial,
-  sans-serif;
+// $font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Roboto', Helvetica, Arial,
+  // sans-serif;
+$font-family-sans: -apple-system,
+  BlinkMacSystemFont,
+  Segoe UI,
+  Helvetica,
+  Arial,
+  sans-serif,
+  Apple Color Emoji,
+  Segoe UI Emoji,
+  Segoe UI Symbol;
+  $font-family-serif: $font-family-sans;
+  $font-family-mono: SFMono-Regular,
+  Consolas,
+  Liberation Mono,
+  Menlo,
+  monospace;
 $line-height: 1.6;
 
 // Headings

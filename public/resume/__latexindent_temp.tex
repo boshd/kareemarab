@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage{array,longtable}
+\usepackage{lipsum}
+\usepackage{fourier}
+\usepackage[T1]{fontenc}
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+\usepackage[bottom=1cm, left=0cm, right=4cm, top=1.3cm]{geometry}
+\pagenumbering{gobble}
+\begin{document}
+
+    \begin{changemargin}{2cm}{-2cm} 
+        \begin{center}
+        {\Huge Kareem Arab}\par\smallskip\smallskip
+        
+        \begin{minipage}[b]{0.33333\textwidth}
+        \centering
+            me@kareemarab.com  \par
+            613.255.5483 --- Ottawa, Canada\par
+            kareemarab.com
+        \end{minipage}%
+        \end{center}
+    \end{changemargin}
+
+    \begin{longtable}{@{}>{\raggedleft}p{0.25\linewidth}
+                          p{\dimexpr0.75\linewidth-2\tabcolsep-\arrayrulewidth\relax}>{}p{0.25\linewidth}@{}}
+            
+        \textbf{work experience}
+            & \textbf{\textsc{Neurovine}} & \textit{Apr 2019 - Sep 2020}\\
+            & \textit{Software Engineer} \\ 
+            % & - Worked on multiple APIs built on AWS Lambda Functions + Serverless \\
+            % & - Worked on building a cross-platform mobile apps using Ionic (Angular) framework \\
+            % & - Worked with Research \& Data Science teams to build real-time data analysis systems \\
+            % & - Took on a dynamic role working through the entire stack in a challenging start-up environment 
+            & - Built multiple APIs w/ AWS Lambda that provide functionality to the mobile app and clinician portal which are helping advance Neurovine into the first phase of testing \\
+		    & -  Worked on building a consumer mobile app as well as a research clinicians portal using the Ionic (Angular) cross-platform framework \\
+		    & - Worked w/ Data Science team to build an EEG analysis system which provides real-time feedback of cognitive over-exertion to concussion patients \\
+		    & - Developed an integration system using Pip that allows the data-science team to develop their algos independently and update the respective APIs automatically when needed \\ 
+		    & - Took on a dynamic role working through the entire stack in a challenging start-up environment \\ 
+		    & - Worked to ensure HIPAA compliance in our system architecture \\ [1em]
+            
+            & \textbf{\textsc{Carleton University Postdoctoral Union}} & \textit{Winter 2018}\\
+            & \textit{Full-Stack Web Developer $\cdot$ freelancing} \\ 
+            & - Developed website for the Carleton University Postdoctoral Union using Laravel (PHP) along with an administrative dashboard to control posts and events \\ [1em]
+            
+        \textbf{education} 
+            & \textbf{\textsc{Carleton University}} & \textit{Spring 2020}\\
+            & BSc in Computer Science $\cdot$ \textit{graduated}\\ [1em]
+            
+        \textbf{research} 
+            & \textbf{\textsc{IoT Lab @ Carleton University}} & \textit{2017 - 2019}\\
+            & \textit{Undergraduate Researcher} \\
+            & - R\&D of machine learning algorithms for engineering applications \\
+            & - Helped research the best performing inference techniques on Smart Grid energy data \\
+            & - Learned to work w/ Neural Networks, DSP \& Wireless Sensor Communications \\ [1em]
+    
+            & \textbf{\textsc{Diabetes Coach (Macadamian---IoT Lab)}} & \textit{Winter 2018}\\
+            & \textit{Research \& Development Intern}\\
+            & - Helped build a system that aims to improve the lives of type II diabetes patients through self-management using voice control (Alexa) and real-time feedback \\ [1em]
+            
+        \textbf{publications}
+            & \textbf{\textsc{Artificial Intelligence for Diabetes Mellitus Type II: Forecasting and Anomaly Detection}} & \textit{2019}\\
+            & \textit{Author --- IEEE Wireless Communications and Networking Conference}\\ [1em]
+            
+            & \textbf{\textsc{Data Communication and Analytics for Smart Grid Systems}} & \textit{2018}\\
+            & \textit{Co-author --- IEEE International Conference on Communications}\\ [1em]
+            
+        \textbf{achievement(s)}
+            & \textbf{\textsc{Shopify --- Build Things App Award}} & \textit{Nov 2018}\\ 
+            & \textit{Winner of the best App award @ Shopify's Build Things App Showcase} \\ [1em]
+        
+        \textbf{projects} 
+            & \textbf{\textsc{C\&W Adversarial Attack}} & \textit{Winter 2020}\\
+            & - Comparing the effects of Gaussian and Adversarial Perturbations on a CNN \\ [1em]
+
+            & \textbf{\textsc{Neural Networks}} & \textit{Summer 2020}\\
+            & - A collection of different Implementations of NNs (Hopfield, RBF and Convolutional) \\ [1em]
+            
+            & \textbf{\textsc{Trnd}} & \textit{2017-2018}\\
+            & - Social network built only for GIFs. Built on iOS using Xcode -- Swift \\ [1em]
+            
+            & **More \textbf{projects} on \textit{github.com/kareemarab}\\ [1em]
+            
+        \textbf{languages,} 
+            & \textbf{\textsc{Python, Swift, TypeScript, HTML, (S)CSS/SASS, C++}} \\
+        \textbf{frameworks and technologies}
+            & \textbf{\textsc{TensorFlow, AWS Lambda, Serverless, Git, CI/CD (GitHub Actions), Ionic (Angular), Firebase, Gatsby, Parse, NextJS , Laravel, DynamoDB}}\\ [1em]
+        
+  \end{longtable}
+  
+\end{document}

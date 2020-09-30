@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout'
 export default function AboutPage() {
 	return (
 		<Layout>
-			<div class="entry">
+			<div className="entry">
 				<h1>About me 🙋‍♂️</h1>
 				<p>
 					Hey, I'm Kareem. I'm a recent Computer Science grad from

@@ -9,7 +9,7 @@ export default function ThoughtsPage(props) {
 	return (
 		<Layout title={props.title} description={props.description}>
 			<div className='thoughts-container'>
-				<h1>Blog posts</h1>
+				<h1>miscellaneous thoughts</h1>
 				<ul>
 					{props.posts.map(function (post, idx) {
 						return (
