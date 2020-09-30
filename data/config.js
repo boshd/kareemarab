@@ -8,7 +8,7 @@ const config = {
 	pathPrefix: '',
 	dateFromFormat: 'YYYY-MM-DD',
 	dateFormat: 'MMMM Do, YYYY',
-	siteDescription: "kareem's apprehension :(",
+	siteDescription: "kareem's apprehension",
 	siteRss: '/rss.xml',
 	googleAnalyticsID: '',
 	postDefaultCategoryID: 'personal',
@@ -16,7 +16,7 @@ const config = {
 	newsletterEmbed: '',
 	userName: 'kareemarab',
 	userEmail: 'me@kareemarab.com',
-	userTwitter: 'itsboshd',
+	userTwitter: '',
 	menuLinks: [
 		{
 			name: 'about',

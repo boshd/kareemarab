@@ -1,16 +1,15 @@
 import Layout from '../../layouts/Layout'
 import Head from 'next/head'
 import { getPostBySlug, getAllPosts } from '../../api/index'
-import MarkdownRender from './MarkdownRender'
+// import MarkdownRender from './MarkdownRender'
 
 export default function Post(props) {
 	// return <PostLayout title={props.title} content={props.content}/>
 	return (
 		<Layout>
-			<MarkdownRender source={cell.source.join("")} />
+			{/* <MarkdownRender source={cell.source.join("")} /> */}
 			<Head>
 				<title>{props.title}</title>
-				dsdsdfsdfs
 			</Head>
 			{/* <style>body { max-width: 42em }</style> */}
 			<article class='post' >
