@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1601864999 "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.tex" "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.pdf" "resume-kareem-arab" 1601865000
-  "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.aux" 1601865000 770 9b591551230e3a2c69e13220b9c1bf5c ""
-  "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.tex" 1601864998 5200 61440a3f315fcdcd4e7e24a71a07943d ""
-  "/dev/null" 1601865000 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1601865251 "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.tex" "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.pdf" "resume-kareem-arab" 1601865252
+  "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.aux" 1601865252 770 9b591551230e3a2c69e13220b9c1bf5c ""
+  "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.tex" 1601865251 5210 ec41fb975f31d2cd0a47d337852c52e4 ""
+  "/dev/null" 1601865252 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -75,13 +75,13 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "resume-kareem-arab.aux" 1601865000 770 9b591551230e3a2c69e13220b9c1bf5c "pdflatex"
-  "resume-kareem-arab.out" 1601865000 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume-kareem-arab.tex" 1601864998 5200 61440a3f315fcdcd4e7e24a71a07943d ""
+  "resume-kareem-arab.aux" 1601865252 770 9b591551230e3a2c69e13220b9c1bf5c "pdflatex"
+  "resume-kareem-arab.out" 1601865252 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume-kareem-arab.tex" 1601865251 5210 ec41fb975f31d2cd0a47d337852c52e4 ""
   (generated)
+  "resume-kareem-arab.log"
   "resume-kareem-arab.aux"
   "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.log"
   "resume-kareem-arab.out"
   "resume-kareem-arab.pdf"
   "/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.pdf"
-  "resume-kareem-arab.log"
