@@ -2,8 +2,8 @@ PWD /Users/kareemarab/dev/kareemarab/public/resume
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.tex
-OUTPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.log
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.tex
+OUTPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.log
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
@@ -84,9 +84,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.aux
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.aux
-OUTPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.aux
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.aux
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.aux
+OUTPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.aux
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fourier/fmlfutm.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fourier/fmlfutm.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fourier/fmsfutm.fd
@@ -98,41 +98,30 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fourier/t1futs.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fourier/t1futs.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.out
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.out
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.out
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.out
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.out
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.out
-OUTPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.out
-OUTPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.pdf
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.out
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.out
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.out
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.out
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.out
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.out
+OUTPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.out
+OUTPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.pdf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futbc8t.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futbi8t.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/fourier/futr8t.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
@@ -150,17 +139,13 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bo
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/fourier/futri8t.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-alt-ita.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/fourier/futsy.vf
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/fourier/futbi8t.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/futbi8r.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/fourier/fourier-alt-boldita.tfm
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.aux
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.out
-INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume - kareem arab.out
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.aux
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.out
+INPUT /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb

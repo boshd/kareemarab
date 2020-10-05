@@ -28,7 +28,7 @@ const config = {
 		},
 		{
 			name: 'resume',
-			link: '/resume/resume.pdf',
+			link: '/resume/resume-kareem-arab.pdf',
 		},
 	],
 	themeColor: '#3F80FF',
