@@ -1,40 +1,34 @@
-import React from 'react'
-import { getConfig, getAllPosts } from '../api/index'
-
-import Head from 'next/head'
-import Link from 'next/link'
 import Layout from '../layouts/Layout'
+import PostList from '@components/PostList'
 
-export default function ThoughtsPage(props) {
+import getPosts from '@utils/getPosts'
+
+const ThoughtsPage = ({ posts, title, description, ...props }) => {
 	return (
 		<Layout title={props.title} description={props.description}>
-			<div className='thoughts-container'>
-				<h1>miscellaneous thoughts</h1>
-				<ul>
-					{props.posts.map(function (post, idx) {
-						return (
-							<li key={idx}>
-								<Link href={'/posts/' + post.slug}>
-									<a>{post.title}</a>
-								</Link>
-								<p>{post.content}</p>
-							</li>
-						)
-					})}
-				</ul>
+			<div className="thoughts-container">
+				<h1 className="title">miscellaneous thoughts</h1>
+				{/* <p className="description">{description}</p> */}
+				{/* <main> */}
+				<PostList posts={posts} />
+				{/* </main> */}
 			</div>
 		</Layout>
 	)
 }
 
+export default ThoughtsPage
+
 export async function getStaticProps() {
-	const config = await getConfig()
-	const allPosts = await getAllPosts()
+	// const configData = await import(`../siteconfig.json`)
+
+	const posts = ((context) => {
+		return getPosts(context)
+	})(require.context('../posts', true, /\.md$/))
+
 	return {
 		props: {
-			posts: allPosts,
-			title: config.title,
-			description: config.description,
+			posts,
 		},
 	}
 }
