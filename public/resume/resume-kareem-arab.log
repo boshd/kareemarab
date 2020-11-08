@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  4 OCT 2020 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 NOV 2020 08:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -721,35 +721,35 @@ LaTeX Info: Redefining \nameref on input line 22.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 32.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <10> not available
-(Font)              Font shape `T1/futs/b/sc' tried instead on input line 41.
+(Font)              Font shape `T1/futs/b/sc' tried instead on input line 42.
 
-Overfull \hbox (136.72098pt too wide) in alignment at lines 38--71
+Overfull \hbox (136.72098pt too wide) in alignment at lines 39--72
  [] [] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10> not available
-(Font)              Font shape `T1/futs/b/it' tried instead on input line 76.
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 80.
 
-Overfull \hbox (136.72098pt too wide) in alignment at lines 71--99
+Overfull \hbox (136.72098pt too wide) in alignment at lines 72--103
  [] [] [] 
  []
 
 
-Overfull \vbox (6.95319pt too high) has occurred while \output is active []
+Overfull \vbox (3.75317pt too high) has occurred while \output is active []
 
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (/Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `resume-kareem-arab.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
  15941 strings out of 492616
@@ -758,9 +758,9 @@ Here is how much of TeX's memory you used:
  19781 multiletter control sequences out of 15000+600000
  562835 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,5n,63p,322b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,5n,63p,380b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.pdf (1 page, 70262 bytes).
+Output written on /Users/kareemarab/dev/kareemarab/public/resume/resume-kareem-arab.pdf (1 page, 68897 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
