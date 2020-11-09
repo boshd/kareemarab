@@ -8,6 +8,9 @@ export default class SideNav extends Component {
 			<nav className="sidenav-container">
 				<div className="links-container">
 					<ul>
+						<li>
+							Kareem Arab
+						</li>
 						{config.menuLinks.map((link) => (
 							<li>
 								<Link href={link.link}>
