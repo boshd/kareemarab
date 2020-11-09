@@ -11,7 +11,6 @@ const ThoughtsPage = ({ posts, title, description, ...props }) => {
 				<p>site still under construction</p>
 				{/* <p className="description">{description}</p> */}
 				{/* <main> */}
-				<PostList posts={posts} />
 				{/* </main> */}
 			</div>
 		</Layout>
