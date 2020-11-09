@@ -14,7 +14,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 				<div className="back">
 					←{' '}
 					<Link href="/thoughts">
-						<a>back out</a>
+						<a>back</a>
 					</Link>
 				</div>
 				<article>
@@ -26,6 +26,9 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 							alt={frontmatter.title}
 						/>
 					)}
+					<span className="subtitle">{frontmatter.readTime} min read • 2020-06-04</span>
+
+					<h4></h4>
 					<div>
 						<MarkdownWithMath source={markdownBody} />
 					</div>

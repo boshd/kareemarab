@@ -8,9 +8,12 @@ const ThoughtsPage = ({ posts, title, description, ...props }) => {
 		<Layout title={props.title} description={props.description}>
 			<div className="thoughts-container">
 				<h1 className="title">miscellaneous thoughts</h1>
-				<p>site still under construction</p>
+
+				{/* <p>site still under construction</p> */}
 				{/* <p className="description">{description}</p> */}
+
 				{/* <main> */}
+				<PostList posts={posts} />
 				{/* </main> */}
 			</div>
 		</Layout>

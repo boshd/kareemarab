@@ -29,6 +29,7 @@ export async function getPostBySlug(slug) {
 	const content = marked(meta.content)
 	return {
 		title: meta.data.title,
+		readTime: meta.data.readTime,
 		content: content,
 	}
 }

@@ -12,11 +12,11 @@ body {
     padding: 4vh 6vw;
     overflow-x: hidden;
     color: #333;
-    font-size: 1rem;
+    // font-size: 1rem;
     //   max-width:63em;
 
     @media (min-width: 820px) {
-        font-size: 1.2rem;
+        font-size: 17px;
     }
 }
 
@@ -71,7 +71,7 @@ hr {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 h2,
@@ -91,6 +91,7 @@ a {
     &:hover {
         color: black !important;
         background: #f8edeb;
+        cursor: pointer;
     }
 
     &:after {
@@ -106,7 +107,7 @@ a {
 }
 
 *:focus {
-    background: #ffe8bc !important;
+    background: $nude !important;
     color: black !important;
 }
 
