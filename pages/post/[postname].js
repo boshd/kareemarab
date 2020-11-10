@@ -11,13 +11,14 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 	return (
 		<>
 			<Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
-				<div className="back">
+				<div className="back-button">
 					←{' '}
 					<Link href="/thoughts">
 						<a>back</a>
 					</Link>
 				</div>
-				<article>
+				<article className="post-container">
+					<span className="subtitle">~{frontmatter.readTime} min read • {frontmatter.date}</span>
 					<h1>{frontmatter.title}</h1>
 					{frontmatter.hero_image && (
 						<img
@@ -26,9 +27,6 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 							alt={frontmatter.title}
 						/>
 					)}
-					<span className="subtitle">{frontmatter.readTime} min read • 2020-06-04</span>
-
-					<h4></h4>
 					<div>
 						<MarkdownWithMath source={markdownBody} />
 					</div>

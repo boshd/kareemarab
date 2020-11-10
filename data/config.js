@@ -26,10 +26,10 @@ const config = {
 			name: 'thoughts',
 			link: '/thoughts',
 		},
-		// {
-		// 	name: 'resume',
-		// 	link: '/resume/resume-kareem-arab.pdf',
-		// },
+		{
+			name: 'resume',
+			link: '/resume/resume-kareem-arab.pdf',
+		},
 	],
 	themeColor: '#3F80FF',
 	backgroundColor: '#ffffff',
