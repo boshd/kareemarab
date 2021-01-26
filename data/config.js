@@ -29,11 +29,7 @@ const config = {
 		{
 			name: 'resume',
 			link: '/resume/resume-kareem-arab.pdf',
-		},
-		{
-			name: 'SCEND',
-			link: '/scend',
-		},
+		}
 	],
 	themeColor: '#3F80FF',
 	backgroundColor: '#ffffff',
