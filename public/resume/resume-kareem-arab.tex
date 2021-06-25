@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage{array,longtable}
+\usepackage{array,longtable, pagecolor, xcolor}
 \usepackage{lipsum}
 \usepackage{fourier}
 \usepackage{hyperref}
@@ -8,6 +8,16 @@
 \let\endchangemargin=\endlist
 \usepackage[bottom=1cm, left=0cm, right=4cm, top=1.3cm]{geometry}
 \pagenumbering{gobble}
+\pagecolor{black}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\AtBeginDocument{\globalcolor{white}}
+
 
 \hypersetup{
     colorlinks=true,
@@ -39,30 +49,31 @@
                           p{\dimexpr0.75\linewidth-2\tabcolsep-\arrayrulewidth\relax}>{}p{0.25\linewidth}@{}}
 
         \textbf{languages,}
-            & \textbf{\textsc{Swift --- Python --- TypeScript --- HTML/(S)CSS/ --- C++}} \\
+            & \textbf{\textsc{Swift --- Java --- Python --- TypeScript --- SQL --- HTML/(S)CSSß}} \\
         \textbf{frameworks and technologies}
-            & \textbf{\textsc{XCode --- iOS ---TensorFlow --- AWS Lambda/Serverless --- REST --- Git --- CI/CD --- Google Cloud Functions --- Linux --- Ionic (Angular) --- Firebase --- Firestore --- Parse --- Realm --- NextJS --- DynamoDB --- Vercel --- MathJax --- Latex}}\\ [3.5em]
+            & \textbf{\textsc{Serverless (AWS Lambda/GCP Functions) --- GCP --- AWS --- Azure --- K8s --- Helm --- Docker --- Terraform --- Vault --- CI/CD (Github Actions, Jenkins, Spinnakr) --- iOS --- TensorFlow --- MySQL --- Redis --- DynamoDB --- Ionic (Angular) --- Firebase --- Realm --- NextJS --- Latex}}\\ [5em]
 
         \textbf{work experience}
-            & \textbf{\textsc{Neurovine}} & \textit{Apr 2019 - present}\\
+            & \textbf{\textsc{Amadeus}} & \textit{Mar 2021 - present}\\
+            & \textit{Full Stack Developer} \\
+            & - Involved in designing, building and integrating \textbf{Multi-Factor Authentication} into multiple production systems serving millions of people. \\
+		    & -  Helped develop internal tools to help developers in test-driven development \\ [1em]
+
+            & \textbf{\textsc{Neurovine}} & \textit{Apr 2019 - Feb 2021}\\
             & \textit{Software Engineer} \\
             & - Built \textbf{APIs} w/ \textbf{AWS Lambda} that provide functionality to multiple apps \\
 		    & -  Helped develop a consumer mobile app \& research portal using the \textbf{Ionic (Angular)} \\
 		    & - Collaborated w/ Data Science team to build a \textbf{Python} \textbf{real-time} EEG analysis system \\
 		    & - Helped set up an integration system using \textbf{PIP} that allows the data-science team to develop their algos. independently and update the respective APIs automatically \\
-		    & - Helped implement \textbf{HIPAA} requirements across all our systems \\ [1em]
-
-            & \textbf{\textsc{Carleton University Postdoctoral Union}} & \textit{Winter 2018}\\
-            & \textit{Web Developer} \\
-            & - Developed website for the Carleton University Postdoctoral Union using \textbf{Laravel (PHP)} along with an administrative dashboard to control posts and events \\ [2em]
+		    & - Helped implement \textbf{HIPPA} requirements across all our systems \\ [1em]
 
         \textbf{education}
             & \textbf{\textsc{Carleton University}} & \textit{Spring 2020} \\
             & Bachelor of Computer Science (BSc) \\ [1em]
 
         \textbf{projects}
-            & \textbf{\textsc{Handshake} --- \textit{Proprietary} } & \textit{2018} \\
-            & - Private events iOS app - alpha release soon. Built using \textbf{Swift}, \textbf{Firebase}, \textbf{Google Cloud Functions} and \textbf{Realm DB}\\ [2em]
+            & \textbf{\textsc{Handshake} } & \textit{2018} \\
+            & - Private events iOS app - beta. Built using \textbf{Swift}, \textbf{Firebase}, \textbf{Google Cloud Functions} and \textbf{Realm DB}\\ [2em]
 
             & \textbf{\textsc{\href{https://github.com/kareemarab/trnd}{\textbf{Trnd}}}} & \textit{2018} \\
             & - A social network app for GIFs. Also built using \textbf{Swift} and \textbf{Parse} \\ [1em]
@@ -73,8 +84,8 @@
             & \textbf{\textsc{\href{https://github.com/kareemarab/neuralnets}{\textbf{Neural Networks}}}} & \textit{Summer 2020} \\
             & - A collection of different Implementations of neural networks (Hopfield, RBF and Convolutional) built using \textbf{TensorFlow} \\ [2em]
 
-            & \textbf{\textsc{\href{https://github.com/kareemarab/glance}{\textbf{Glance}}}} & \textit{2018} \\
-            & - \textbf{Linux OS} Task Manager written in Python \\ [1em]
+            % & \textbf{\textsc{\href{https://github.com/kareemarab/glance}{\textbf{Glance}}}} & \textit{2018} \\
+            % & - \textbf{Linux OS} Task Manager written in Python \\ [1em]
 
             & ** More \textbf{projects} on \textit{\href{https://github.com/kareemarab}{\textbf{github}}}.\\ [1em]
 
