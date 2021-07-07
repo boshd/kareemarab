@@ -1,4 +1,4 @@
-Hey, I'm Kareem. I'm a Software Engineer based in Ottawa, but working remotely. My main interests are in mobile (iOS & React) and backend development, statistics, machine learning and a bit of music composition.
+Hey, I'm Kareem. I'm a Software Engineer based in Ottawa, working remotely. My main interests are in mobile (iOS & React) and backend development, statistics, machine learning and a bit of music composition.
 
 ### Get in touch
 
