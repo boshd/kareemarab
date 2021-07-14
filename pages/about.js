@@ -7,11 +7,15 @@ export default function AboutPage() {
 			<div className="entry">
 				<h1>About me 🙋‍♂️</h1>
 				<p>
-					Hey, I'm Kareem. I'm a recent Computer Science grad from
-					Carleton University. My main interests are in iOS and
-					backend development, statistics, machine learning and lately
-					a bit of lite qm. I currently reside in Ottawa - Canada's
+					Hey, I'm Kareem. I'm currently a Full Stack Developer @ Amadeus. My mainly
+					interested in iOS, backend, statistics, and machine
+					learning. I currently reside in Ottawa - Canada's
 					Capital.
+
+					<br/><br/>
+
+					I'm also currently building a really cool private events app. If you
+					would like to test it out, you can sign up <a href='https://forms.gle/eoCN5hkBV9tPfLu37'>here</a>.
 				</p>
 
 				<h3 id="contact-me">Get in touch</h3>
