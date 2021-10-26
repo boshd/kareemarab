@@ -7,8 +7,8 @@ export default function AboutPage() {
 			<div className="entry">
 				<h1>About me 🙋‍♂️</h1>
 				<p>
-					Hey, I'm Kareem. I'm currently a Full Stack Developer @ Amadeus. My mainly
-					interested in iOS, backend, statistics, and machine
+					Hey, I'm Kareem. I'm currently a Full Stack Developer @ Amadeus. I'm mainly
+					interested in iOS, backend dev., and machine
 					learning. I currently reside in Ottawa - Canada's
 					Capital.
 
