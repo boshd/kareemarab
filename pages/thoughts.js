@@ -9,6 +9,12 @@ const ThoughtsPage = ({ posts, title, description, ...props }) => {
 			<div className="thoughts-container">
 				<h1 className="title">miscellaneous thoughts</h1>
 
+				<p>
+					Welcome to mind 🧠. In this incoherent series of notes I try to explain things to myself in an attempt
+					to develop a profound understanding of different subjects shallow or otherwise. My thoughts are
+					highly irrational and riddled with flaws and biases so read at your own risk.
+				</p>
+
 				{/* <p>site still under construction</p> */}
 				{/* <p className="description">{description}</p> */}
 

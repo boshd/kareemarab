@@ -1,7 +1,7 @@
 import React from 'react'
-import ReactMarkdown from 'react-markdown/with-html'
+import ReactMarkdown from 'react-markdown'
 // import { InlineMath, BlockMath } from 'react-katex'
-import MathJax from 'react-mathjax2'
+import MathJax from 'mathjax'
 // import 'katex/dist/katex.min.css'
 import RemarkMathPlugin from 'remark-math'
 
@@ -60,7 +60,8 @@ function MarkdownWithMath(props) {
     }
 
 	return (
-        <MathJax.Context input="tex"
+        <MathJax.Context
+            // input="tex"
             input='ascii'
             onLoad={() => console.log("Loaded MathJax script!")}
             onError={(MathJax, error) => {

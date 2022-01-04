@@ -8,19 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
-    "@matejmazur/react-mathjax": "^0.1.10",
     "hexo-renderer-pandoc": "^0.3.0",
-    "mathjax": "^3.0.5",
-    "next": "^9.4.4",
+    "mathjax": "^3.2.0",
+    "next": "^12.0.7",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-katex": "^2.0.2",
-    "react-latex-next": "^1.2.0",
-    "react-markdown": "^4.3.1",
-    "react-mathjax": "^1.0.1",
-    "react-mathjax2": "0.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-latex-next": "^2.1.0",
+    "react-markdown": "^7.1.2",
     "rehype-katex": "^4.0.0",
+    "rehype-raw": "^6.1.1",
     "remark-math": "^3.0.1",
     "sass": "^1.26.5"
   },
@@ -28,6 +25,7 @@
     "gray-matter": "^4.0.2",
     "js-yaml": "^3.14.0",
     "marked": "^2.0.0",
-    "raw-loader": "^4.0.1"
+    "raw-loader": "^4.0.1",
+    "tailwindcss": "^3.0.8"
   }
 }
